@@ -29,6 +29,8 @@ class GameScene: SKScene {
         player.position.x = -((view.frame.width / 2) - 20)
         player.zPosition = 1
         addChild(player)
+
+        gameTimer = Timer.scheduledTimer(timeInterval: 0.50, target: self, selector: #selector(createEnemy), userInfo: nil, repeats: true)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -57,7 +59,18 @@ class GameScene: SKScene {
         // Called before each frame is rendered
     }
 
-    func createEnemy() {
-        
+    @objc func createEnemy() {
+        let sprite = SKSpriteNode(imageNamed: "asteroid")
+        let halfHeight = Int((view?.frame.height ?? 700) / 2)
+        let halfWidth = Int((view?.frame.width ?? 1200) / 2)
+        sprite.position = CGPoint(x: halfWidth, y: Int.random(in: -halfHeight...halfHeight))
+        sprite.name = "enemy"
+        sprite.zPosition = 1
+        addChild(sprite)
+
+        sprite.physicsBody = SKPhysicsBody(texture: sprite.texture!, size: sprite.size)
+        sprite.physicsBody?.velocity = CGVector(dx: -500, dy: 0)
+        sprite.physicsBody?.linearDamping = 0
+        sprite.physicsBody?.affectedByGravity = false
     }
 }
