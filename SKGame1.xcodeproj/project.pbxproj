@@ -9,25 +9,25 @@
 /* Begin PBXBuildFile section */
 		E246DE9924A78B8E00B53938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E246DE9824A78B8E00B53938 /* AppDelegate.swift */; };
 		E246DE9B24A78B8E00B53938 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E246DE9A24A78B8E00B53938 /* GameScene.sks */; };
-		E246DE9D24A78B8E00B53938 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E246DE9C24A78B8E00B53938 /* Actions.sks */; };
 		E246DE9F24A78B8E00B53938 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E246DE9E24A78B8E00B53938 /* GameScene.swift */; };
 		E246DEA124A78B8E00B53938 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E246DEA024A78B8E00B53938 /* GameViewController.swift */; };
 		E246DEA424A78B8E00B53938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E246DEA224A78B8E00B53938 /* Main.storyboard */; };
 		E246DEA624A78B9200B53938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E246DEA524A78B9200B53938 /* Assets.xcassets */; };
 		E246DEA924A78B9200B53938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E246DEA724A78B9200B53938 /* LaunchScreen.storyboard */; };
+		E246DEB124A7908200B53938 /* SpaceDust.sks in Resources */ = {isa = PBXBuildFile; fileRef = E246DEB024A7908200B53938 /* SpaceDust.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E246DE9524A78B8E00B53938 /* SKGame1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKGame1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E246DE9824A78B8E00B53938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E246DE9A24A78B8E00B53938 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		E246DE9C24A78B8E00B53938 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		E246DE9E24A78B8E00B53938 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E246DEA024A78B8E00B53938 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E246DEA324A78B8E00B53938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E246DEA524A78B9200B53938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E246DEA824A78B9200B53938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E246DEAA24A78B9200B53938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E246DEB024A7908200B53938 /* SpaceDust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpaceDust.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +62,8 @@
 			children = (
 				E246DE9824A78B8E00B53938 /* AppDelegate.swift */,
 				E246DE9A24A78B8E00B53938 /* GameScene.sks */,
-				E246DE9C24A78B8E00B53938 /* Actions.sks */,
 				E246DE9E24A78B8E00B53938 /* GameScene.swift */,
+				E246DEB024A7908200B53938 /* SpaceDust.sks */,
 				E246DEA024A78B8E00B53938 /* GameViewController.swift */,
 				E246DEA224A78B8E00B53938 /* Main.storyboard */,
 				E246DEA524A78B9200B53938 /* Assets.xcassets */,
@@ -131,11 +131,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E246DEB124A7908200B53938 /* SpaceDust.sks in Resources */,
 				E246DEA424A78B8E00B53938 /* Main.storyboard in Resources */,
 				E246DE9B24A78B8E00B53938 /* GameScene.sks in Resources */,
 				E246DEA624A78B9200B53938 /* Assets.xcassets in Resources */,
 				E246DEA924A78B9200B53938 /* LaunchScreen.storyboard in Resources */,
-				E246DE9D24A78B8E00B53938 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
